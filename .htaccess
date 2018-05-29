@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteCond %{SCRIPT_FILENAME} !-d
+   RewriteCond %{SCRIPT_FILENAME} !-f
+   RewriteRule ^(.+)$ http://localhost:8080/ibrinezcoaching/index.php?controller=$1&action=$2 [QSA,L]
+   ErrorDocument 404 /404.html
+</IfModule>

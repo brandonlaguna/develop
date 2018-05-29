@@ -1,0 +1,68 @@
+body{background-image: url("/ibrinezcoaching/media/img/family.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-wrapper{
+    background: transparent;
+}
+
+.intro{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background:rgba(0,173,216,0.5);
+}
+.hero{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    position: absolute;
+}
+.hero p{
+    font-size: 5rem;
+    color: rgba(250,250,250,0.9);
+}
+.btn-hero{
+    background: rgba(0,173,216,0.5);
+}
+.btn-hero:hover{
+    background: rgba(0,173,216,1);
+}
+.respMedia{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+.prehero{
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color:white;
+}
+.herotext, .herotext-fluid{
+    padding: 8px 2px;
+    position: absolute;
+    margin-top: 13%;
+    text-align: center;
+    font-size: 2rem;
+}
+.herotext{width: 50%;}
+.herotext-fluid{width: 100%;}
+
+.style8{
+    background: #fcfdff;
+    height: auto;
+    padding: 0px 2px;
+}
+.shadowcard{
+    width: 96%;
+    height:auto;
+    padding: 16px 9px;
+}
+.h1{font-family: 'Merienda', cursive;}
